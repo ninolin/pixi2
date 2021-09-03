@@ -1,0 +1,1411 @@
+{
+    "skeleton": {
+        "width": 526,
+        "height": 147,
+        "fps": 24,
+        "hash": " ",
+        "name": "win_panel",
+        "spine": "3.8.55"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "y": 80,
+            "name": "main_bone",
+            "parent": "root"
+        },
+        {
+            "x": -142,
+            "name": "player",
+            "parent": "main_bone"
+        },
+        {
+            "x": 140,
+            "name": "banker",
+            "parent": "main_bone"
+        },
+        {
+            "x": -2,
+            "y": 48,
+            "name": "tie",
+            "parent": "main_bone"
+        },
+        {
+            "x": -203,
+            "y": 53,
+            "name": "point_player_wd",
+            "parent": "main_bone"
+        },
+        {
+            "x": 203,
+            "y": 53,
+            "name": "point_banker_wd",
+            "parent": "main_bone"
+        },
+        {
+            "x": -1,
+            "y": 48,
+            "name": "point_tie_wd",
+            "parent": "main_bone"
+        },
+        {
+            "x": 126,
+            "y": 53,
+            "name": "point_banker_num",
+            "parent": "main_bone"
+        },
+        {
+            "x": -129,
+            "y": 53,
+            "name": "point_player_num",
+            "parent": "main_bone"
+        },
+        {
+            "name": "tie_fx",
+            "parent": "tie"
+        },
+        {
+            "x": -42,
+            "y": 53,
+            "name": "player_fx_l",
+            "parent": "player"
+        },
+        {
+            "x": 41,
+            "y": 53,
+            "scaleX": -1,
+            "name": "player_fx_r",
+            "parent": "player"
+        },
+        {
+            "x": -42,
+            "y": 53,
+            "name": "bank_fx_l",
+            "parent": "banker"
+        },
+        {
+            "x": 41,
+            "y": 53,
+            "scaleX": -1,
+            "name": "bank_fx_r",
+            "parent": "banker"
+        }
+    ],
+    "slots": [
+        {
+            "name": "dark",
+            "bone": "main_bone",
+            "attachment": "dark"
+        },
+        {
+            "name": "panel_bank",
+            "bone": "banker",
+            "attachment": "panel_bank"
+        },
+        {
+            "name": "panel_player",
+            "bone": "player",
+            "attachment": "panel_player"
+        },
+        {
+            "name": "label_bank",
+            "bone": "banker",
+            "blend": "additive",
+            "attachment": "label_bank"
+        },
+        {
+            "name": "label_player",
+            "bone": "player",
+            "blend": "additive",
+            "attachment": "label_player"
+        },
+        {
+            "name": "bank_fx_l",
+            "bone": "bank_fx_l",
+            "blend": "additive"
+        },
+        {
+            "name": "bank_fx_r",
+            "bone": "bank_fx_r",
+            "blend": "additive"
+        },
+        {
+            "name": "player_fx_l",
+            "bone": "player_fx_l",
+            "blend": "additive"
+        },
+        {
+            "name": "player_fx_r",
+            "bone": "player_fx_r",
+            "blend": "additive"
+        },
+        {
+            "name": "panel_tie",
+            "bone": "tie",
+            "attachment": "panel_tie"
+        },
+        {
+            "name": "panel_tie1",
+            "bone": "tie",
+            "blend": "additive",
+            "attachment": "panel_tie"
+        },
+        {
+            "name": "tie_fx",
+            "bone": "tie_fx",
+            "blend": "additive",
+            "attachment": "tie_fx/tie_fx_009"
+        },
+        {
+            "name": "point_banker_wd",
+            "bone": "point_banker_wd",
+            "attachment": "point"
+        },
+        {
+            "name": "point_player_wd",
+            "bone": "point_player_wd",
+            "attachment": "point"
+        },
+        {
+            "name": "point_tie_wd",
+            "bone": "point_tie_wd",
+            "attachment": "point"
+        },
+        {
+            "name": "point_banker_num",
+            "bone": "point_banker_num",
+            "attachment": "point"
+        },
+        {
+            "name": "point_player_num",
+            "bone": "point_player_num",
+            "attachment": "point"
+        }
+    ],
+    "skins": [{
+        "name": "default",
+        "attachments": {
+            "player_fx_l": {
+                "player_line_fx/player_line_fx_000": {
+                    "name": "player_line_fx/player_line_fx_000",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_001": {
+                    "name": "player_line_fx/player_line_fx_001",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_002": {
+                    "name": "player_line_fx/player_line_fx_002",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_003": {
+                    "name": "player_line_fx/player_line_fx_003",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_004": {
+                    "name": "player_line_fx/player_line_fx_004",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_005": {
+                    "name": "player_line_fx/player_line_fx_005",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_006": {
+                    "name": "player_line_fx/player_line_fx_006",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_007": {
+                    "name": "player_line_fx/player_line_fx_007",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_008": {
+                    "name": "player_line_fx/player_line_fx_008",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_009": {
+                    "name": "player_line_fx/player_line_fx_009",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_010": {
+                    "name": "player_line_fx/player_line_fx_010",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_011": {
+                    "name": "player_line_fx/player_line_fx_011",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_012": {
+                    "name": "player_line_fx/player_line_fx_012",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_013": {
+                    "name": "player_line_fx/player_line_fx_013",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_014": {
+                    "name": "player_line_fx/player_line_fx_014",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_015": {
+                    "name": "player_line_fx/player_line_fx_015",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_016": {
+                    "name": "player_line_fx/player_line_fx_016",
+                    "width": 180,
+                    "height": 56
+                }
+            },
+            "dark": {
+                "dark": {
+                    "name": "dark",
+                    "width": 270,
+                    "height": 82,
+                    "scaleX": 2,
+                    "scaleY": 2
+                }
+            },
+            "point_tie_wd": {
+                "point": {
+                    "name": "point",
+                    "width": 4,
+                    "height": 4
+                }
+            },
+            "tie_fx": {
+                "tie_fx/tie_fx_000": {
+                    "name": "tie_fx/tie_fx_000",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_001": {
+                    "name": "tie_fx/tie_fx_001",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_002": {
+                    "name": "tie_fx/tie_fx_002",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_003": {
+                    "name": "tie_fx/tie_fx_003",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_004": {
+                    "name": "tie_fx/tie_fx_004",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_005": {
+                    "name": "tie_fx/tie_fx_005",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_006": {
+                    "name": "tie_fx/tie_fx_006",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_007": {
+                    "name": "tie_fx/tie_fx_007",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_008": {
+                    "name": "tie_fx/tie_fx_008",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_009": {
+                    "name": "tie_fx/tie_fx_009",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_010": {
+                    "name": "tie_fx/tie_fx_010",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_011": {
+                    "name": "tie_fx/tie_fx_011",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_012": {
+                    "name": "tie_fx/tie_fx_012",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_013": {
+                    "name": "tie_fx/tie_fx_013",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_014": {
+                    "name": "tie_fx/tie_fx_014",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_015": {
+                    "name": "tie_fx/tie_fx_015",
+                    "width": 72,
+                    "height": 56
+                },
+                "tie_fx/tie_fx_016": {
+                    "name": "tie_fx/tie_fx_016",
+                    "width": 72,
+                    "height": 56
+                }
+            },
+            "label_player": {
+                "label_player": {
+                    "name": "label_player",
+                    "width": 244,
+                    "height": 36,
+                    "y": 53
+                }
+            },
+            "point_player_num": {
+                "point": {
+                    "name": "point",
+                    "width": 4,
+                    "height": 4
+                }
+            },
+            "point_banker_wd": {
+                "point": {
+                    "name": "point",
+                    "width": 4,
+                    "height": 4
+                }
+            },
+            "point_player_wd": {
+                "point": {
+                    "name": "point",
+                    "width": 4,
+                    "height": 4
+                }
+            },
+            "player_fx_r": {
+                "player_line_fx/player_line_fx_000": {
+                    "name": "player_line_fx/player_line_fx_000",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_001": {
+                    "name": "player_line_fx/player_line_fx_001",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_002": {
+                    "name": "player_line_fx/player_line_fx_002",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_003": {
+                    "name": "player_line_fx/player_line_fx_003",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_004": {
+                    "name": "player_line_fx/player_line_fx_004",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_005": {
+                    "name": "player_line_fx/player_line_fx_005",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_006": {
+                    "name": "player_line_fx/player_line_fx_006",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_007": {
+                    "name": "player_line_fx/player_line_fx_007",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_008": {
+                    "name": "player_line_fx/player_line_fx_008",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_009": {
+                    "name": "player_line_fx/player_line_fx_009",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_010": {
+                    "name": "player_line_fx/player_line_fx_010",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_011": {
+                    "name": "player_line_fx/player_line_fx_011",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_012": {
+                    "name": "player_line_fx/player_line_fx_012",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_013": {
+                    "name": "player_line_fx/player_line_fx_013",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_014": {
+                    "name": "player_line_fx/player_line_fx_014",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_015": {
+                    "name": "player_line_fx/player_line_fx_015",
+                    "width": 180,
+                    "height": 56
+                },
+                "player_line_fx/player_line_fx_016": {
+                    "name": "player_line_fx/player_line_fx_016",
+                    "width": 180,
+                    "height": 56
+                }
+            },
+            "panel_bank": {
+                "panel_bank": {
+                    "name": "panel_bank",
+                    "width": 244,
+                    "height": 142
+                }
+            },
+            "bank_fx_l": {
+                "bank_line_fx/bank_line_fx_000": {
+                    "name": "bank_line_fx/bank_line_fx_000",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_001": {
+                    "name": "bank_line_fx/bank_line_fx_001",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_002": {
+                    "name": "bank_line_fx/bank_line_fx_002",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_003": {
+                    "name": "bank_line_fx/bank_line_fx_003",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_004": {
+                    "name": "bank_line_fx/bank_line_fx_004",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_005": {
+                    "name": "bank_line_fx/bank_line_fx_005",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_006": {
+                    "name": "bank_line_fx/bank_line_fx_006",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_007": {
+                    "name": "bank_line_fx/bank_line_fx_007",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_008": {
+                    "name": "bank_line_fx/bank_line_fx_008",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_009": {
+                    "name": "bank_line_fx/bank_line_fx_009",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_010": {
+                    "name": "bank_line_fx/bank_line_fx_010",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_011": {
+                    "name": "bank_line_fx/bank_line_fx_011",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_012": {
+                    "name": "bank_line_fx/bank_line_fx_012",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_013": {
+                    "name": "bank_line_fx/bank_line_fx_013",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_014": {
+                    "name": "bank_line_fx/bank_line_fx_014",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_015": {
+                    "name": "bank_line_fx/bank_line_fx_015",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_016": {
+                    "name": "bank_line_fx/bank_line_fx_016",
+                    "width": 180,
+                    "height": 56
+                }
+            },
+            "panel_tie": {
+                "panel_tie": {
+                    "name": "panel_tie",
+                    "width": 54,
+                    "height": 40
+                }
+            },
+            "panel_player": {
+                "panel_player": {
+                    "name": "panel_player",
+                    "width": 244,
+                    "height": 142
+                }
+            },
+            "point_banker_num": {
+                "point": {
+                    "name": "point",
+                    "width": 4,
+                    "height": 4
+                }
+            },
+            "bank_fx_r": {
+                "bank_line_fx/bank_line_fx_000": {
+                    "name": "bank_line_fx/bank_line_fx_000",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_001": {
+                    "name": "bank_line_fx/bank_line_fx_001",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_002": {
+                    "name": "bank_line_fx/bank_line_fx_002",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_003": {
+                    "name": "bank_line_fx/bank_line_fx_003",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_004": {
+                    "name": "bank_line_fx/bank_line_fx_004",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_005": {
+                    "name": "bank_line_fx/bank_line_fx_005",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_006": {
+                    "name": "bank_line_fx/bank_line_fx_006",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_007": {
+                    "name": "bank_line_fx/bank_line_fx_007",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_008": {
+                    "name": "bank_line_fx/bank_line_fx_008",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_009": {
+                    "name": "bank_line_fx/bank_line_fx_009",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_010": {
+                    "name": "bank_line_fx/bank_line_fx_010",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_011": {
+                    "name": "bank_line_fx/bank_line_fx_011",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_012": {
+                    "name": "bank_line_fx/bank_line_fx_012",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_013": {
+                    "name": "bank_line_fx/bank_line_fx_013",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_014": {
+                    "name": "bank_line_fx/bank_line_fx_014",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_015": {
+                    "name": "bank_line_fx/bank_line_fx_015",
+                    "width": 180,
+                    "height": 56
+                },
+                "bank_line_fx/bank_line_fx_016": {
+                    "name": "bank_line_fx/bank_line_fx_016",
+                    "width": 180,
+                    "height": 56
+                }
+            },
+            "panel_tie1": {
+                "panel_tie": {
+                    "name": "panel_tie",
+                    "width": 54,
+                    "height": 40
+                }
+            },
+            "label_bank": {
+                "label_bank": {
+                    "name": "label_bank",
+                    "width": 244,
+                    "height": 36,
+                    "y": 53
+                }
+            }
+        }
+    }],
+    "animations": {
+        "banker_win": {
+            "slots": {
+                "bank_fx_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bank_line_fx/bank_line_fx_000"
+                        },
+                        {
+                            "time": 0.0417,
+                            "name": "bank_line_fx/bank_line_fx_001"
+                        },
+                        {
+                            "time": 0.0834,
+                            "name": "bank_line_fx/bank_line_fx_002"
+                        },
+                        {
+                            "time": 0.1251,
+                            "name": "bank_line_fx/bank_line_fx_003"
+                        },
+                        {
+                            "time": 0.1668,
+                            "name": "bank_line_fx/bank_line_fx_004"
+                        },
+                        {
+                            "time": 0.2085,
+                            "name": "bank_line_fx/bank_line_fx_005"
+                        },
+                        {
+                            "time": 0.2502,
+                            "name": "bank_line_fx/bank_line_fx_006"
+                        },
+                        {
+                            "time": 0.2919,
+                            "name": "bank_line_fx/bank_line_fx_007"
+                        },
+                        {
+                            "time": 0.3336,
+                            "name": "bank_line_fx/bank_line_fx_008"
+                        },
+                        {
+                            "time": 0.3753,
+                            "name": "bank_line_fx/bank_line_fx_009"
+                        },
+                        {
+                            "time": 0.417,
+                            "name": "bank_line_fx/bank_line_fx_010"
+                        },
+                        {
+                            "time": 0.4587,
+                            "name": "bank_line_fx/bank_line_fx_011"
+                        },
+                        {
+                            "time": 0.5004,
+                            "name": "bank_line_fx/bank_line_fx_012"
+                        },
+                        {
+                            "time": 0.5421,
+                            "name": "bank_line_fx/bank_line_fx_013"
+                        },
+                        {
+                            "time": 0.5838,
+                            "name": "bank_line_fx/bank_line_fx_014"
+                        },
+                        {
+                            "time": 0.6255,
+                            "name": "bank_line_fx/bank_line_fx_015"
+                        },
+                        {
+                            "time": 0.6672,
+                            "name": "bank_line_fx/bank_line_fx_016"
+                        },
+                        {
+                            "time": 0.7089,
+                            "name": ""
+                        }
+                    ]
+                },
+                "bank_fx_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "bank_line_fx/bank_line_fx_000"
+                        },
+                        {
+                            "time": 0.0417,
+                            "name": "bank_line_fx/bank_line_fx_001"
+                        },
+                        {
+                            "time": 0.0834,
+                            "name": "bank_line_fx/bank_line_fx_002"
+                        },
+                        {
+                            "time": 0.1251,
+                            "name": "bank_line_fx/bank_line_fx_003"
+                        },
+                        {
+                            "time": 0.1668,
+                            "name": "bank_line_fx/bank_line_fx_004"
+                        },
+                        {
+                            "time": 0.2085,
+                            "name": "bank_line_fx/bank_line_fx_005"
+                        },
+                        {
+                            "time": 0.2502,
+                            "name": "bank_line_fx/bank_line_fx_006"
+                        },
+                        {
+                            "time": 0.2919,
+                            "name": "bank_line_fx/bank_line_fx_007"
+                        },
+                        {
+                            "time": 0.3336,
+                            "name": "bank_line_fx/bank_line_fx_008"
+                        },
+                        {
+                            "time": 0.3753,
+                            "name": "bank_line_fx/bank_line_fx_009"
+                        },
+                        {
+                            "time": 0.417,
+                            "name": "bank_line_fx/bank_line_fx_010"
+                        },
+                        {
+                            "time": 0.4587,
+                            "name": "bank_line_fx/bank_line_fx_011"
+                        },
+                        {
+                            "time": 0.5004,
+                            "name": "bank_line_fx/bank_line_fx_012"
+                        },
+                        {
+                            "time": 0.5421,
+                            "name": "bank_line_fx/bank_line_fx_013"
+                        },
+                        {
+                            "time": 0.5838,
+                            "name": "bank_line_fx/bank_line_fx_014"
+                        },
+                        {
+                            "time": 0.6255,
+                            "name": "bank_line_fx/bank_line_fx_015"
+                        },
+                        {
+                            "time": 0.6672,
+                            "name": "bank_line_fx/bank_line_fx_016"
+                        },
+                        {
+                            "time": 0.7089,
+                            "name": ""
+                        }
+                    ]
+                },
+                "label_bank": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.0417,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.4167,
+                            "color": "FFFFFF7F"
+                        },
+                        {
+                            "time": 0.75,
+                            "color": "FFFFFF00"
+                        }
+                    ]
+                },
+                "label_player": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "panel_tie": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "tie_fx": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "point_tie_wd": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "panel_tie1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "player_win": {
+            "slots": {
+                "label_bank": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "label_player": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.0417,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.4167,
+                            "color": "FFFFFF7F"
+                        },
+                        {
+                            "time": 0.75,
+                            "color": "FFFFFF00"
+                        }
+                    ]
+                },
+                "player_fx_l": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "player_line_fx/player_line_fx_000"
+                        },
+                        {
+                            "time": 0.0417,
+                            "name": "player_line_fx/player_line_fx_001"
+                        },
+                        {
+                            "time": 0.0834,
+                            "name": "player_line_fx/player_line_fx_002"
+                        },
+                        {
+                            "time": 0.1251,
+                            "name": "player_line_fx/player_line_fx_003"
+                        },
+                        {
+                            "time": 0.1668,
+                            "name": "player_line_fx/player_line_fx_004"
+                        },
+                        {
+                            "time": 0.2085,
+                            "name": "player_line_fx/player_line_fx_005"
+                        },
+                        {
+                            "time": 0.2502,
+                            "name": "player_line_fx/player_line_fx_006"
+                        },
+                        {
+                            "time": 0.2919,
+                            "name": "player_line_fx/player_line_fx_007"
+                        },
+                        {
+                            "time": 0.3336,
+                            "name": "player_line_fx/player_line_fx_008"
+                        },
+                        {
+                            "time": 0.3753,
+                            "name": "player_line_fx/player_line_fx_009"
+                        },
+                        {
+                            "time": 0.417,
+                            "name": "player_line_fx/player_line_fx_010"
+                        },
+                        {
+                            "time": 0.4587,
+                            "name": "player_line_fx/player_line_fx_011"
+                        },
+                        {
+                            "time": 0.5004,
+                            "name": "player_line_fx/player_line_fx_012"
+                        },
+                        {
+                            "time": 0.5421,
+                            "name": "player_line_fx/player_line_fx_013"
+                        },
+                        {
+                            "time": 0.5838,
+                            "name": "player_line_fx/player_line_fx_014"
+                        },
+                        {
+                            "time": 0.6255,
+                            "name": "player_line_fx/player_line_fx_015"
+                        },
+                        {
+                            "time": 0.6672,
+                            "name": "player_line_fx/player_line_fx_016"
+                        },
+                        {
+                            "time": 0.7089,
+                            "name": ""
+                        }
+                    ]
+                },
+                "player_fx_r": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "player_line_fx/player_line_fx_000"
+                        },
+                        {
+                            "time": 0.0417,
+                            "name": "player_line_fx/player_line_fx_001"
+                        },
+                        {
+                            "time": 0.0834,
+                            "name": "player_line_fx/player_line_fx_002"
+                        },
+                        {
+                            "time": 0.1251,
+                            "name": "player_line_fx/player_line_fx_003"
+                        },
+                        {
+                            "time": 0.1668,
+                            "name": "player_line_fx/player_line_fx_004"
+                        },
+                        {
+                            "time": 0.2085,
+                            "name": "player_line_fx/player_line_fx_005"
+                        },
+                        {
+                            "time": 0.2502,
+                            "name": "player_line_fx/player_line_fx_006"
+                        },
+                        {
+                            "time": 0.2919,
+                            "name": "player_line_fx/player_line_fx_007"
+                        },
+                        {
+                            "time": 0.3336,
+                            "name": "player_line_fx/player_line_fx_008"
+                        },
+                        {
+                            "time": 0.3753,
+                            "name": "player_line_fx/player_line_fx_009"
+                        },
+                        {
+                            "time": 0.417,
+                            "name": "player_line_fx/player_line_fx_010"
+                        },
+                        {
+                            "time": 0.4587,
+                            "name": "player_line_fx/player_line_fx_011"
+                        },
+                        {
+                            "time": 0.5004,
+                            "name": "player_line_fx/player_line_fx_012"
+                        },
+                        {
+                            "time": 0.5421,
+                            "name": "player_line_fx/player_line_fx_013"
+                        },
+                        {
+                            "time": 0.5838,
+                            "name": "player_line_fx/player_line_fx_014"
+                        },
+                        {
+                            "time": 0.6255,
+                            "name": "player_line_fx/player_line_fx_015"
+                        },
+                        {
+                            "time": 0.6672,
+                            "name": "player_line_fx/player_line_fx_016"
+                        },
+                        {
+                            "time": 0.7089,
+                            "name": ""
+                        }
+                    ]
+                },
+                "panel_tie": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "tie_fx": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "point_tie_wd": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "panel_tie1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "tie_win": {
+            "slots": {
+                "label_bank": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "label_player": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "tie_fx": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "tie_fx/tie_fx_000"
+                        },
+                        {
+                            "time": 0.0417,
+                            "name": "tie_fx/tie_fx_001"
+                        },
+                        {
+                            "time": 0.0834,
+                            "name": "tie_fx/tie_fx_002"
+                        },
+                        {
+                            "time": 0.1251,
+                            "name": "tie_fx/tie_fx_003"
+                        },
+                        {
+                            "time": 0.1668,
+                            "name": "tie_fx/tie_fx_004"
+                        },
+                        {
+                            "time": 0.2085,
+                            "name": "tie_fx/tie_fx_005"
+                        },
+                        {
+                            "time": 0.2502,
+                            "name": "tie_fx/tie_fx_006"
+                        },
+                        {
+                            "time": 0.2919,
+                            "name": "tie_fx/tie_fx_007"
+                        },
+                        {
+                            "time": 0.3336,
+                            "name": "tie_fx/tie_fx_008"
+                        },
+                        {
+                            "time": 0.3753,
+                            "name": "tie_fx/tie_fx_009"
+                        },
+                        {
+                            "time": 0.417,
+                            "name": "tie_fx/tie_fx_010"
+                        },
+                        {
+                            "time": 0.4587,
+                            "name": "tie_fx/tie_fx_011"
+                        },
+                        {
+                            "time": 0.5004,
+                            "name": "tie_fx/tie_fx_012"
+                        },
+                        {
+                            "time": 0.5421,
+                            "name": "tie_fx/tie_fx_013"
+                        },
+                        {
+                            "time": 0.5838,
+                            "name": "tie_fx/tie_fx_014"
+                        },
+                        {
+                            "time": 0.6255,
+                            "name": "tie_fx/tie_fx_015"
+                        },
+                        {
+                            "time": 0.6672,
+                            "name": "tie_fx/tie_fx_016"
+                        },
+                        {
+                            "time": 0.7089,
+                            "name": ""
+                        }
+                    ]
+                },
+                "panel_tie1": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.0417,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.4167,
+                            "color": "FFFFFF66"
+                        },
+                        {
+                            "time": 0.75,
+                            "color": "FFFFFF00"
+                        }
+                    ]
+                }
+            }
+        },
+        "in": {
+            "slots": {
+                "panel_bank": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "FFFFFFFF"
+                        }
+                    ]
+                },
+                "panel_player": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "FFFFFFFF"
+                        }
+                    ]
+                },
+                "label_bank": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "label_player": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "panel_tie": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ],
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "FFFFFFFF"
+                        }
+                    ]
+                },
+                "panel_tie1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "tie_fx": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "point_player_wd": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "FFFFFFFF"
+                        }
+                    ]
+                },
+                "point_tie_wd": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "point_banker_num": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "FFFFFFFF"
+                        }
+                    ]
+                },
+                "point_player_num": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "FFFFFFFF"
+                        }
+                    ]
+                },
+                "dark": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "FFFFFFFF"
+                        }
+                    ]
+                },
+                "point_banker_wd": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "FFFFFF00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "FFFFFFFF"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

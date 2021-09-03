@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hello World</title>
+</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
+    <script src='pixi-spine.js'></script>
+<body>
+    <style>* {padding: 0; margin: 0}</style>
+    <script type="text/javascript">
+        var app = new PIXI.Application({ 
+            width: 1000, 
+            height: 1000,
+            backgroundColor: 0x1099aa,
+            resolution: window.devicePixelRatio || 1
+        });
+        document.body.appendChild(app.view);
+
+        app.stop();
+
+        // load spine data
+        PIXI.loader
+            .add('spineCharacter', 'win_panel/win_panel.json')
+            .add('spineBankerCn', 'win_panel_word/banker_cn.png')
+            .load(onAssetsLoaded);
+
+        var win_panel = null;
+
+        function onAssetsLoaded(loader, resources) {
+
+            // instantiate the spine animation
+            win_panel = new PIXI.spine.Spine(resources.spineCharacter.spineData);
+            win_panel.skeleton.setToSetupPose();
+            // win_panel.update(0);
+            // win_panel.autoUpdate = true;
+            win_panel.position.set(270, 195);
+            win_panel.state.setAnimation(0, 'tie_win', true);
+            // console.log()
+            // win_panel.skeleton.findSlot('point_player_wd').attachment.color.g = 0.9;
+            // const win_text = new PIXI.Text('0', {
+            //     fontFamily: '"Microsoft JhengHei", cursive, sans-serif',
+            //     fontSize: 20,
+            //     fill: 0xffea00
+            // });
+
+            let spineBankerCn = new PIXI.Sprite(resources.spineBankerCn.texture);
+            console.error(spineBankerCn);         
+            // app.stage.addChild(win_text);
+            // let attach = win_panel.skeleton.findSlot('dark').attachment
+            // attach.width = 900
+            // attach.updateOffset();
+            
+            win_panel.skeleton.findSlot('point_banker_wd').sprites.point.texture = resources.spineBankerCn.texture;
+
+            console.error(win_panel.skeleton.findSlot('point_banker_wd'));
+
+            app.stage.addChild(win_panel);
+            
+            // if (win_panel.state.hasAnimation('banker_win')) {
+            //     console.log('aaaaa')
+            //     // run forever, little boy!
+            //     win_panel.state.setAnimation(0, 'banker_win', true);
+            //     // dont run too fast
+            //     win_panel.state.timeScale = 0.1;
+            //     win_panel.position.set(270, 195);
+            // }
+            
+            app.start();
+
+        }
+
+    </script>
+</body>
+</html>

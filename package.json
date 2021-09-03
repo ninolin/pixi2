@@ -1,0 +1,16 @@
+{
+  "name": "pixi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dragon.js",
+  "dependencies": {
+    "pixi-spine": "^2.1.14",
+    "pixi-tween": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
